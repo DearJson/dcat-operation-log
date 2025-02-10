@@ -1,8 +1,8 @@
 <?php
 
-use Weiaibaicai\OperationLog\Http\Controllers;
+use Wbjson\OperationLog\Http\Controllers;
 use Illuminate\Support\Facades\Route;
-use Weiaibaicai\OperationLog\Models\OperationLog;
+use Wbjson\OperationLog\Models\OperationLog;
 
 if (OperationLog::withRoutes()) {
     Route::get('auth/operation-logs', Controllers\LogController::class.'@index')->name('dcat-admin.operation-log.index');

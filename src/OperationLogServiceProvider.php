@@ -1,10 +1,10 @@
 <?php
 
-namespace Weiaibaicai\OperationLog;
+namespace Wbjson\OperationLog;
 
 use Dcat\Admin\Extend\ServiceProvider;
 use Dcat\Admin\Admin;
-use Weiaibaicai\OperationLog\Http\Middleware\OperationLogMiddleware;
+use Wbjson\OperationLog\Http\Middleware\OperationLogMiddleware;
 
 
 class OperationLogServiceProvider extends ServiceProvider

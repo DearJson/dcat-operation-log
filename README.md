@@ -10,18 +10,18 @@
 ### composer 安装
 
 ```
-composer require weiaibaicai/dcat-operation-log
+composer require Wbjson/dcat-operation-log
 ```
 
 ### 启用插件
 ```
-开发工具 -> 扩展 -> weiaibaicai.dcat-operation-log -> 升级 -> 启用
+开发工具 -> 扩展 -> Wbjson.dcat-operation-log -> 升级 -> 启用
 ```
 
 ### 发布配置 operation-log.php
 
 ```
-php artisan vendor:publish --provider="Weiaibaicai\OperationLog\OperationLogServiceProvider"
+php artisan vendor:publish --provider="Wbjson\OperationLog\OperationLogServiceProvider"
 ```
 
 ## 方法使用

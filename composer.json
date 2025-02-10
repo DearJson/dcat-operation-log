@@ -17,14 +17,14 @@
   },
   "autoload": {
     "psr-4": {
-      "Weiaibaicai\\OperationLog\\": "src/"
+      "Wbjson\\OperationLog\\": "src/"
     }
   },
   "extra": {
-    "dcat-admin": "Weiaibaicai\\OperationLog\\OperationLogServiceProvider",
+    "dcat-admin": "Wbjson\\OperationLog\\OperationLogServiceProvider",
     "laravel": {
       "providers": [
-        "Weiaibaicai\\OperationLog\\OperationLogServiceProvider"
+        "Wbjson\\OperationLog\\OperationLogServiceProvider"
       ]
     }
   }

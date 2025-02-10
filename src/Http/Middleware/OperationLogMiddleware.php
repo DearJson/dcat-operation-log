@@ -1,9 +1,9 @@
 <?php
 
-namespace Weiaibaicai\OperationLog\Http\Middleware;
+namespace Wbjson\OperationLog\Http\Middleware;
 
 use Dcat\Admin\Admin;
-use Weiaibaicai\OperationLog\Models\OperationLog as OperationLogModel;
+use Wbjson\OperationLog\Models\OperationLog as OperationLogModel;
 use Dcat\Admin\Support\Helper;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;

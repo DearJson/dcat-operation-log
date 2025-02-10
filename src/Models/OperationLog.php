@@ -1,6 +1,6 @@
 <?php
 
-namespace Weiaibaicai\OperationLog\Models;
+namespace Wbjson\OperationLog\Models;
 
 use Dcat\Admin\Traits\HasDateTimeFormatter;
 use Illuminate\Database\Eloquent\Model;

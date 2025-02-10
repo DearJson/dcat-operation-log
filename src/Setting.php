@@ -1,6 +1,6 @@
 <?php
 
-namespace Weiaibaicai\OperationLog;
+namespace Wbjson\OperationLog;
 
 use Dcat\Admin\Extend\Setting as Form;
 

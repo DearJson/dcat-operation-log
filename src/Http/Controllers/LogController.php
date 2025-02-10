@@ -1,12 +1,12 @@
 <?php
 
-namespace Weiaibaicai\OperationLog\Http\Controllers;
+namespace Wbjson\OperationLog\Http\Controllers;
 
 use Dcat\Admin\Grid;
 use Dcat\Admin\Http\JsonResponse;
 use Dcat\Admin\Layout\Content;
-use Weiaibaicai\OperationLog\Models\OperationLog;
-use Weiaibaicai\OperationLog\OperationLogServiceProvider;
+use Wbjson\OperationLog\Models\OperationLog;
+use Wbjson\OperationLog\OperationLogServiceProvider;
 use Dcat\Admin\Support\Helper;
 use Illuminate\Support\Arr;
 use Dcat\Admin\Admin;
